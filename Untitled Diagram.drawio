@@ -1,9 +1,81 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.14">
   <diagram name="Page-1" id="fVtSUpSL7_syZP3CrMET">
-    <mxGraphModel>
+    <mxGraphModel dx="1395" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="26_QNZwZ1mlNETkX3CWE-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="26_QNZwZ1mlNETkX3CWE-1" target="26_QNZwZ1mlNETkX3CWE-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410.0588235294117" y="539.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26_QNZwZ1mlNETkX3CWE-1" value="输入dify工作流进行数据生成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="26_QNZwZ1mlNETkX3CWE-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="26_QNZwZ1mlNETkX3CWE-4" target="26_QNZwZ1mlNETkX3CWE-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="26_QNZwZ1mlNETkX3CWE-4" value="输入数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="370" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="26_QNZwZ1mlNETkX3CWE-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="26_QNZwZ1mlNETkX3CWE-6" target="26_QNZwZ1mlNETkX3CWE-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="26_QNZwZ1mlNETkX3CWE-6" value="删除首轮数据以及多余列，调整格式" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="640" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="26_QNZwZ1mlNETkX3CWE-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="26_QNZwZ1mlNETkX3CWE-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26_QNZwZ1mlNETkX3CWE-8" value="随机选择50-100个case进行评估" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="26_QNZwZ1mlNETkX3CWE-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="26_QNZwZ1mlNETkX3CWE-12" target="26_QNZwZ1mlNETkX3CWE-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="26_QNZwZ1mlNETkX3CWE-15" value="达标" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="26_QNZwZ1mlNETkX3CWE-14">
+          <mxGeometry x="-0.2444" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26_QNZwZ1mlNETkX3CWE-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="26_QNZwZ1mlNETkX3CWE-12" target="26_QNZwZ1mlNETkX3CWE-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="26_QNZwZ1mlNETkX3CWE-19" value="不达标" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="26_QNZwZ1mlNETkX3CWE-17">
+          <mxGeometry x="-0.125" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26_QNZwZ1mlNETkX3CWE-12" value="质量是否达标？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="830" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="26_QNZwZ1mlNETkX3CWE-13" value="进行训练" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="970" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="26_QNZwZ1mlNETkX3CWE-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="26_QNZwZ1mlNETkX3CWE-16" target="26_QNZwZ1mlNETkX3CWE-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="26_QNZwZ1mlNETkX3CWE-16" value="修改调整原有dify工作流prompt" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="700" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="26_QNZwZ1mlNETkX3CWE-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="26_QNZwZ1mlNETkX3CWE-20" target="26_QNZwZ1mlNETkX3CWE-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26_QNZwZ1mlNETkX3CWE-20" value="调整数据过滤策略" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="560" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="26_QNZwZ1mlNETkX3CWE-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="26_QNZwZ1mlNETkX3CWE-26" target="26_QNZwZ1mlNETkX3CWE-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="26_QNZwZ1mlNETkX3CWE-26" value="数据过滤" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="560" width="100" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
